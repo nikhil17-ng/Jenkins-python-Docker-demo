@@ -4,8 +4,8 @@ app = Flask(__name__)
 @app.route('/') 
 
 def hello(): 
-    return ('\nHello from Container World!-Sonal Mittal \n\n')
-    return ('\nDeployment using Jenkins \n\n')
+    return ('\nHello from Container World!-Deployment using Jenkins \n\n')
+   
 
 
 if __name__ == "__main__": 
