@@ -1,0 +1,15 @@
+Run the below command before running the pipeline.
+This command will ensure Jenkisn can run docker commands
+
+# chmod -R 777 /var/run/docker.sock
+
+
+OR
+
+# vim /etc/sudoers
+
+make an entry for jenkisn user to have root permissions
+
+jenkins ALL=NOPASSD: ALL
+
+Save the file.
