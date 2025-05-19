@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/') 
 
 def hello(): 
-    return ('\nHello from Container World!-Deployment using Jenkins \n\n')
+    return ('\nHello from Container World!-Deployment using Docker Image \n\n')
    
 
 
